@@ -2,12 +2,22 @@
     "projects": [
         {
             "image": "portfolio.png",
-            "name": "Portfolio-in-react",
+            "name": "Portfolio in-react",
             "link": "Link"
         },
         {
             "image": "coworkproject.png",
-            "name": "Cowork-in-react",
+            "name": "Cowork in-react",
+            "link": "Link"
+        },
+        {
+            "image": "BuyNow.png",
+            "name": "Buy-now in-react",
+            "link": "Link"
+        },
+        {
+            "image": "iphone.png",
+            "name": "IPhone in-react",
             "link": "Link"
         }
     ]
