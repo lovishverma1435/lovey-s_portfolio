@@ -19,6 +19,16 @@
             "image": "iphone.png",
             "name": "IPhone in-react",
             "link": "Link"
+        },
+        {
+            "image": "verlin.png",
+            "name": "Verlin start project",
+            "link": "Link"
+        },
+        {
+            "image": "Nike.png",
+            "name": "Nike shoes project",
+            "link": "Link"
         }
     ]
 }
