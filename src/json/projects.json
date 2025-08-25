@@ -29,6 +29,21 @@
             "image": "Nike.png",
             "name": "Nike shoes project",
             "link": "Link"
+        },
+        {
+            "image": "calculator.png",
+            "name": "calculator in js",
+            "link": "Link"
+        },
+        {
+            "image": "login.png",
+            "name": "Login page",
+            "link": "Link"
+        },
+         {
+            "image": "cards.png",
+            "name": "start cards page",
+            "link": "Link"
         }
     ]
 }

@@ -13,7 +13,7 @@ export function FloatingDockDemo() {
     { title: "About", icon: <IconMessageChatbot  className="h-full w-full  " />, href: "/aboutme" },
     { title: "Education", icon: <IconAward  className="h-full w-full  " />, href: "/education" },
     { title: "Projects", icon: <IconDeviceDesktop  className="h-full w-full  " />, href: "/projects" },
-    { title: "Contect", icon: <IconMessage className="h-full w-full  " />, href: "/contect" },
+    { title: "Contact", icon: <IconMessage className="h-full w-full  " />, href: "/contact" },
     
   ];
 

@@ -1,20 +1,20 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css"
-// import BottomMenu from "./pages/Button";
-import HeroSection from "./pages/Herosection";
 import { FloatingDockDemo } from "./ui/PagesDPage";
-import About from "./home/About";
-import Projects from "./home/Projects";
-// import HeroSection from "./pages/Herosection";
+import HomeSection from "./home/Homesection";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HeroSection />}/>
+        <Route path="/" element={<HomeSection />}/>
         <Route path="/aboutme" element={<About />}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
        {/* <BottomMenu/> */}
        <FloatingDockDemo/>

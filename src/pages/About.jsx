@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import Fontui from '../ui/Fontui'
 import { Instagram, Linkedin, Github, Twitter } from 'lucide-react'
-import Button from '../ui/Button'
 
 const About = () => {
   const [IsLoading, SetIsLoading] = useState(false)
@@ -14,7 +12,7 @@ const About = () => {
   }
   return (
     <>
-      <section className='relative w-full h-screen bg-[#0d0714] text-white font-inter overflow-hidden'>
+      <section className=' w-full h-screen bg-[#0d0714] font-inter overflow-hidden'>
         <div className='container'>
           <div className="pt-5">
             <div className="flex gap-5 items-center justify-between">

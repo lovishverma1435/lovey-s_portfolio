@@ -3,7 +3,7 @@ import projects from "../json/projects.json"
 const Projects = () => {
   return (
     <>
-      <section className="relative w-full min-h-screen bg-[#0d0714] text-white font-inter pt-10">
+      <section className="relative w-full min-h-screen bg-[#0d0714]  font-inter pt-10">
         <div className="flex gap-20 pl-20">
           <div className="sticky top-10 self-start">
             <img
