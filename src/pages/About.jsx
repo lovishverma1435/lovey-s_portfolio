@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Instagram, Linkedin, Github, Twitter,Download  } from 'lucide-react'
+import { useTheme } from '../Theme/ThemeProvider'
 
 const About = () => {
   const [IsLoading, SetIsLoading] = useState(false)
@@ -10,21 +11,19 @@ const About = () => {
       SetIsLoading(false)
     }, 2000)
   }
-
+const {theme}=useTheme()
   return (
     <>
-      <section className=' w-full  font-inter'>
+      <section className={`${theme ? "text-black" :"text-gray-300"} w-full  font-inter`}>
         <div className='container'>
-          <div className="pt-5">
-           
-            <div className="flex items-center justify-between py-5 relative">
+            <div className="flex items-center justify-between  my-auto h-screen relative">
               <img className='max-w-[500px] w-full h-[500px] ' src="/hero4.png" alt="" />
               <div className=" flex flex-col gap-14 max-w-[500px] w-full ">
                 <div className="flex flex-col gap-4">
                   <h1 className='text-6xl text-[#ec5631] font-medium'>About Me...</h1>
-                  <h1 className='text-xl leading-[120%] text-gray-300'>Transforming ideas into digital <span className='text-4xl text-[#ec5631]'>experiences</span></h1>
+                  <h1 className='text-xl leading-[120%] '>Transforming ideas into digital <span className='text-4xl text-[#ec5631]'>experiences</span></h1>
                 </div>
-                <p className="text-2xl max-w-2xl leading-relaxed text-gray-300">
+                <p className="text-2xl max-w-2xl leading-relaxed ">
                   Hey, <span className='text-[#ec5631] text-3xl'>I’m Lovey</span> 👋 A passionate <span className='text-[#ec5631] text-3xl'>Full-Stack Web Developer</span> who loves
                   building scalable, modern, and user-friendly applications.
                 </p>
@@ -33,7 +32,6 @@ const About = () => {
                  <a href=""  className='bg-[#ec5631] py-3 rounded-xl flex justify-center max-w-[150px] w-full  font-semibold text-lg'>Skills</a>
                  </div>
               </div>
-            </div>
           </div>
         </div>
       </section>

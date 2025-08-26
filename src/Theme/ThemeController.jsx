@@ -58,7 +58,7 @@ const SliderToggle = ({ selected, setSelected }) => {
         <motion.span
           layout
           transition={{ type: "spring", damping: 15, stiffness: 250 }}
-          className="h-full w-1/2 rounded-full bg-[#ec5631]"
+          className="h-[35px] w-1/2 rounded-full bg-[#ec5631]"
         />
       </div>
     </div>

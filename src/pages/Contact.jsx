@@ -8,6 +8,7 @@ import {
   Linkedin,
   Github,
 } from "lucide-react";
+import { useTheme } from "../Theme/ThemeProvider";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -17,10 +18,11 @@ const Contact = () => {
     setLoading(true);
     setTimeout(() => setLoading(false), 2000);
   };
+  const { theme } = useTheme()
 
   return (
-    <section className="w-full   text-white font-inter  py-10 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto">
+    <section className={` ${theme ? "text-black" : "text-gray-300"} w-full font-inter  flex items-center justify-center h-screen  px-6 md:px-12`}>
+      <div className="max-w-7xl mx-auto ">
         {/* Section Heading */}
         <h1 className="text-3xl md:text-4xl font-semibold text-[#ec5631]  md:text-left">
           Let’s Connect ✨
@@ -33,13 +35,13 @@ const Contact = () => {
             <h1 className="text-2xl md:text-4xl font-bold leading-snug pb-5 ">
               Let’s Work <span className="text-[#ec5631]">Together!</span>
             </h1>
-            <p className="text-base md:text-lg text-gray-300 ">
+            <p className="text-base md:text-lg ">
               I’m always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision.
             </p>
 
             {/* Contact Info */}
-            <div className="flex flex-col gap-4 mt-6 text-gray-300">
+            <div className="flex flex-col gap-4 mt-6 ">
               <p className="flex  gap-2 text-sm md:text-base ">
                 <Mail className="text-[#ec5631]" /> Bhushankumar4554@gmail.com
               </p>

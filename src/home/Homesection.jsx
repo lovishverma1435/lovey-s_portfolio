@@ -1,10 +1,12 @@
 import React from "react";
+import { useTheme } from "../Theme/ThemeProvider";
 
 const HeroSection = () => {
+  const {theme}=useTheme()
   return (
-    <section className="relative w-full h-screen text-white font-inter ">
+    <section className={`${theme ? "text-black" :"text-gray-300"} relative w-full h-screen font-inter `}>
       {/* Jai Shree Krishna */}
-      <p className="absolute top-6 left-[325px] -translate-x-1/2 text-gray-400 text-sm font-medium ">
+      <p className="absolute top-6 left-[325px] -translate-x-1/2  text-sm font-medium ">
         Jai Shree Krishna, I'm
       </p>
 
@@ -26,7 +28,7 @@ const HeroSection = () => {
 
       {/* Call Me Section */}
       <div className="absolute top-3/4 right-[280px] text-right">
-        <p className="text-xs uppercase text-gray-300">Call me</p>
+        <p className="text-sm font-medium uppercase ">Call me</p>
         <h2 className="text-3xl font-bold">
           <span className="bg-gradient-to-r from-[#ff4974] to-[#ff7aa2] bg-clip-text text-transparent text-5xl font-normal">
             LOVEY
@@ -42,7 +44,7 @@ const HeroSection = () => {
             WELCOME
           </span>{" "}
         </p>
-          <span className="text-gray-300 text-xl">TO MY</span>
+          <span className=" text-xl font-medium">TO MY</span>
         <p className="text-xl font-bold">
           <span className="bg-gradient-to-r from-[#ff4974] to-[#4fc3f7] bg-clip-text text-transparent">
             PORTFOLIO
