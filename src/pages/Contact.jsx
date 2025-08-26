@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-full min-h-screen bg-[#0d0714] text-white font-inter overflow-hidden py-10 px-6 md:px-12">
+    <section className="w-full   text-white font-inter  py-10 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <h1 className="text-3xl md:text-4xl font-semibold text-[#ec5631]  md:text-left">

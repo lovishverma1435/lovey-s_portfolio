@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen bg-[#0d0714] text-white font-inter overflow-hidden ">
+    <section className="relative w-full h-screen text-white font-inter ">
       {/* Jai Shree Krishna */}
       <p className="absolute top-6 left-[325px] -translate-x-1/2 text-gray-400 text-sm font-medium ">
         Jai Shree Krishna, I'm
