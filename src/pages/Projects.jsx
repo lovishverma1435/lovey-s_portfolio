@@ -4,16 +4,16 @@ const Projects = () => {
   return (
     <>
       <section className="relative  w-full font-inter py-16">
-        <div className="flex  gap-20 pl-20">
-          <div className="">
+        <div className=" xl:flex gap-10  xl:gap-20 px-[20px] lg:px-10  xl:pl-20">
+          <div className="flex justify-center mb-10">
             <img
-              className="sticky top-10 self-start w-[400px] h-[600px] rounded-full object-cover hover:shadow-[0_0_40px_rgba(236,86,49,0.6)]"
+              className=" sticky top-10 self-start w-[400px] h-[600px] rounded-full object-cover hover:shadow-[0_0_40px_rgba(236,86,49,0.6)]"
               src="/boyanimation.png"
               alt="animation"
             />
           </div>
           {/* Right Projects Grid */}
-          <div className="grid  grid-cols-2 gap-10">
+          <div className="grid sm:grid-cols-2 justify-center gap-3 lg:gap-5 xl:gap-10">
             {projects.projects.map((item, index) => (
               <nav className="max-w-[400px] group  w-full h-full" key={index}>
                 <div className="flex flex-col gap-4 bg-gradient-to-br from-[#1a1a1a] to-[#0d0714] border border-gray-800 p-4 rounded-2xl  group-hover:shadow-[0_0_25px_rgba(236,86,49,0.7)] transition-all duration-300">
