@@ -27,7 +27,7 @@ const FloatingDockDesktop = ({ items, className }) => {
             onMouseMove={(e) => mouseX.set(e.pageX)}
             onMouseLeave={() => mouseX.set(Infinity)}
             className={cn(
-                "fixed bottom-[3px]  h-16 items-end gap-4 rounded-[110px]  px-4 pb-3 md:flex  ",
+                "flex fixed bottom-0 left-0 w-full h-16 items-center justify-center gap-4 rounded-t-[20px] bg-transparent md:bg-black px-4",
                 className
             )}
         >
@@ -68,7 +68,7 @@ function IconContainer({ mouseX, title, icon, href }) {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
                 className={`relative flex aspect-square items-center justify-center rounded-full 
-              bg-gradient-to-r from-pink-500 to-blue-400`}
+              bg-gradient-to-r from-pink-500 to-blue-400 `}
             >
                 <AnimatePresence>
                     {hovered && (
@@ -77,7 +77,7 @@ function IconContainer({ mouseX, title, icon, href }) {
                             animate={{ opacity: 1, y: 0, x: "-50%" }}
                             exit={{ opacity: 0, y: 2, x: "-50%" }}
                             className="bg-customTeal text-gray-200 absolute -top-8 left-1/2 w-fit rounded-md 
-                   font-poppins font-semibold px-2 py-1 text-xs whitespace-pre"
+                   font-poppins font-semibold px-2 py-1 text-xs whitespace-pre "
                         >
                             {title}
                         </motion.div>
@@ -86,7 +86,7 @@ function IconContainer({ mouseX, title, icon, href }) {
 
                 <motion.div
                     style={{ width: widthIcon, height: heightIcon }}
-                    className={`flex text-white items-center justify-center`}  // 👈 text ko white kiya taki gradient pe visible ho
+                    className={`flex text-white items-center justify-center `}  // 👈 text ko white kiya taki gradient pe visible ho
                 >
                     {icon}
                 </motion.div>

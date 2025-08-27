@@ -17,8 +17,8 @@ export function FloatingDockDemo() {
   ];
 
   return (
-    <div className="flex items-center justify-center  bg-transparent">
-      <FloatingDock mobileClassName="translate-y-20" items={links} />
+    <div className="flex items-center justify-center  bg-transparent ">
+      <FloatingDock mobileClassName="translate-y-20 " items={links} />
     </div>
   );
 }

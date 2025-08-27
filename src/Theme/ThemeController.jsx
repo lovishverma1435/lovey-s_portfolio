@@ -1,64 +1,53 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { useTheme } from "./ThemeProvider";
 
-const TOGGLE_CLASSES =
-  "text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-10";
-
 const Theme = () => {
-  const [selected, setSelected] = useState("dark");
- 
-  return (
+  const { theme, setTheme } = useTheme();
 
-    <SliderToggle selected={selected} setSelected={setSelected} />
-  );
-};
-
-const SliderToggle = ({ selected, setSelected }) => {
-    const { theme, setTheme } = useTheme();
+  // body background set
   if (theme === true) {
-    document.body.style.background = "#dfdfdf";
+    document.body.style.background =
+      "linear-gradient(to bottom right, #f9f9f9, #dcdcdc)";
   } else {
-    document.body.style.background = "black";
+    document.body.style.background =
+      "linear-gradient(to bottom right, #0d0d0d, #1a1a1a)";
   }
-  return (
-    <div className="relative  flex w-fit items-center rounded-full">
-      <button
-        className={`${TOGGLE_CLASSES} ${
-          selected === "light" ? "text-white" : "text-slate-300"
-        }`}
-        onClick={() => {
-          setSelected("light");
-          setTheme(true)
-        }}
-        
-      >
-        <FiSun className="relative z-10 text-lg md:text-sm" />
-        <span className="relative z-10">Light</span>
-      </button>
-      <button
-        className={`${TOGGLE_CLASSES} ${
-          selected === "dark" ? "text-white" : "text-slate-800"
-        }`}
-        onClick={() => {
-          setSelected("dark");
-          setTheme(false)
-        }}
 
+  return (
+    <div className="relative flex w-fit items-center rounded-full bg-white/10 backdrop-blur-md shadow-lg p-1">
+      {/* Light Button */}
+      <button
+        className={`relative z-10 flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors ${
+          theme === true ? "text-white" : "text-slate-400"
+        }`}
+        onClick={() => setTheme(true)}
       >
-        <FiMoon className="relative z-10 text-lg md:text-sm" />
-        <span className="relative z-10">Dark</span>
+        <FiSun className="text-lg" />
+        <span className="hidden md:inline">Light</span>
       </button>
+
+      {/* Dark Button */}
+      <button
+        className={`relative z-10 flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors ${
+          theme === false ? "text-white" : "text-slate-400"
+        }`}
+        onClick={() => setTheme(false)}
+      >
+        <FiMoon className="text-lg" />
+        <span className="hidden md:inline">Dark</span>
+      </button>
+
+      {/* Animated Background */}
       <div
         className={`absolute inset-0 z-0 flex ${
-          selected === "dark" ? "justify-end" : "justify-start"
+          theme === false ? "justify-end" : "justify-start"
         }`}
       >
         <motion.span
           layout
           transition={{ type: "spring", damping: 15, stiffness: 250 }}
-          className="h-[35px] w-1/2 rounded-full bg-[#ec5631]"
+          className="h-[40px] w-1/2 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 shadow-md"
         />
       </div>
     </div>

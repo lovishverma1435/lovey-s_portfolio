@@ -6,13 +6,13 @@ const HeroSection = () => {
   return (
     <section className={`${theme ? "text-black" :"text-gray-300"} relative w-full h-screen font-inter `}>
       {/* Jai Shree Krishna */}
-      <p className="absolute top-6 left-[325px] -translate-x-1/2  text-sm font-medium ">
+      {/* <p className="absolute top-6 left-[325px] -translate-x-1/2  text-sm font-medium pt-3">
         Jai Shree Krishna, I'm
-      </p>
+      </p> */}
 
       {/* Big Name */}
-      <h1 className="absolute top-16 left-1/2 -translate-x-1/2 font-bold tracking-widest text-[12vw] leading-none">
-        <span className="bg-gradient-to-r from-[#ff4974] to-[#4fc3f7] bg-clip-text text-transparent text-[200px] font-normal">
+      <h1 className="absolute top-16 left-1/2 -translate-x-1/2 font-bold tracking-widest  leading-none">
+        <span className="bg-gradient-to-r from-[#ff4974] to-[#4fc3f7] bg-clip-text text-transparent text-[80px] md:text-[120px] lg:text-[200px] font-normal">
           BHUSHAN
         </span>
       </h1>

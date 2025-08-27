@@ -60,7 +60,7 @@ function Fontui({
   return (
     <div className="flex items-start justify-start">
       <div className={`font-semibold italic bg-gradient-to-r from-[#ff4974] to-[#4fc3f7] bg-clip-text text-transparent font-inter ${className}`}>
-        <span className={`text-white`}>
+        <span className={`text-[#ec5631]`}>
           {outofspan}
         </span>
         <span className="text-customTeal">

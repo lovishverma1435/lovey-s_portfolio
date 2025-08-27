@@ -5,9 +5,9 @@ const Projects = () => {
     <>
       <section className="relative  w-full font-inter py-16">
         <div className="flex  gap-20 pl-20">
-          <div className="sticky top-10 self-start">
+          <div className="">
             <img
-              className="w-[400px] h-[600px] rounded-full object-cover hover:shadow-[0_0_40px_rgba(236,86,49,0.6)]"
+              className="sticky top-10 self-start w-[400px] h-[600px] rounded-full object-cover hover:shadow-[0_0_40px_rgba(236,86,49,0.6)]"
               src="/boyanimation.png"
               alt="animation"
             />
