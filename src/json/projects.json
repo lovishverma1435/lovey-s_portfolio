@@ -1,10 +1,6 @@
 {
     "projects": [
-        {
-            "image": "portfolio.png",
-            "name": "Portfolio in-react",
-            "link": "Link"
-        },
+        
         {
             "image": "coworkproject.png",
             "name": "Cowork in-react",

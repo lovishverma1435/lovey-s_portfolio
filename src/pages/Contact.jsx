@@ -18,7 +18,7 @@ const Contact = () => {
         theme ? "text-black " : "text-gray-300"
       }`}
     >
-      <div className="container mx-auto px-4 py-20 flex flex-col md:flex md:flex-row gap-10">
+      <div className="container mx-auto px-4  value  h-screen gap-10">
         {/* Left Side */}
         <div className="flex-1 flex flex-col gap-6">
           <h1 className="text-4xl font-semibold text-[#ec5631]">

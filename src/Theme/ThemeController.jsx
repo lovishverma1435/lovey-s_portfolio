@@ -47,7 +47,7 @@ const Theme = () => {
         <motion.span
           layout
           transition={{ type: "spring", damping: 15, stiffness: 250 }}
-          className="h-[40px] w-1/2 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 shadow-md"
+          className="h-full w-1/2 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 shadow-md"
         />
       </div>
     </div>

@@ -9,7 +9,7 @@ const Header = () => {
                         <img className='max-w-12 h-12 w-full rounded-[50%] border-2  border-gray-300' src="/bklogo.png" alt="" />
                     </div> */}
                      <Fontui className='absolute left-2 md:left-1  top-4 text-lg font-medium '  words={["dev","des"]} inspan="." outofspan="Bhushan"/>
-                    <div className="absolute right-2 md:right-1 top-3">
+                    <div className="absolute right-2 md:right-1 z-50 top-3">
                         <Theme />
                     </div>
                 </div>

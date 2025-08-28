@@ -20,7 +20,7 @@ const About = () => {
             <div className="flex justify-center">
               <img className='max-w-[500px] w-full h-auto md:h-[500px] ' src="/hero4.png" alt="" />
             </div>
-            <div className=" flex flex-col gap-8 text-center max-w-[550px] w-full">
+            <div className=" flex flex-col gap-8 text-center sm:mx-auto max-w-[550px] w-full">
               <div className="flex flex-col gap-4 text-center ">
                 <h1 className='text-4xl sm:text-5xl md:text-6xl text-[#ec5631] lg:text-start font-semibold'>About Me...</h1>
                 <h1 className='text-lg sm:text-xl md:text-2xl leading-snug lg:text-start'>Transforming ideas into digital <span className='text-2xl sm:text-3xl md:text-4xl text-[#ec5631]'>experiences</span></h1>
@@ -29,18 +29,18 @@ const About = () => {
                 Hey, <span className='text-[#ec5631] text-xl sm:text-2xl lg:text-3xl'>I’m Lovey</span> 👋 A passionate <span className='text-[#ec5631] text-xl sm:text-2xl md:text-3xl'>Full-Stack Web Developer</span> who loves
                 building scalable, modern, and user-friendly applications.
               </p>
-              <div className="flex flex-col md:flex-row justify-center md:justify-start gap-4 sm:gap-6 pb-16 md:pb-0">
+              <div className=" flex button gap-4 sm:gap-6 w-full pb-16 md:pb-0">
                 <a
                   href="https://drive.usercontent.google.com/download?id=1KN-tfEHaDdDyJct6rhCcDt0_oyUPZWpx&export=download&authuser=0&confirm=t&uuid=897c23e0-8bb3-4eee-bd5f-ea8254459639&at=AN8xHoppkLzmUb3q43PKS-mYnft_:1755671016408"
                   download={"cv"}
-                  className='bg-[#ec5631] py-3 px-6 rounded-xl flex justify-center items-center font-semibold text-lg gap-2 hover:scale-105 transition-transform duration-300 shadow-lg'
+                  className='bg-[#ec5631] w-full py-3 px-14 rounded-xl flex justify-center items-center font-semibold text-lg gap-3 hover:scale-105 transition-transform duration-300 shadow-lg'
                 >
                   CV <Download className='w-5 h-5' />
                 </a>
 
                 <a
                   href=""
-                  className='bg-[#ec5631] py-3 px-6 rounded-xl flex justify-center items-center font-semibold text-lg hover:scale-105 transition-transform duration-300 shadow-lg'
+                  className='bg-[#ec5631] w-full py-3 px-16 rounded-xl flex justify-center items-center font-semibold text-lg hover:scale-105 transition-transform duration-300 shadow-lg'
                 >
                   Skills
                 </a>
