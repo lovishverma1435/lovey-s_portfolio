@@ -11,7 +11,7 @@ const HeroSection = () => {
       </p> */}
 
       {/* Big Name */}
-      <h1 className="absolute top-16 left-1/2 -translate-x-1/2 font-bold tracking-widest  leading-none">
+      <h1 className="absolute top-16 left-1/2 -translate-x-1/2 font-bold tracking-widest  leading-none pt-2">
         <span className="bg-gradient-to-r from-[#ff4974] to-[#4fc3f7] bg-clip-text text-transparent headname font-normal">
           BHUSHAN
         </span>
