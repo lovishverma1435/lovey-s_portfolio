@@ -141,3 +141,39 @@
 .headname{
   font-size: 60px;
 }}
+
+/* Default (mobile-first) */
+.skill {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px; /* optional spacing */
+}
+
+/* Tablet and above */
+@media (min-width: 768px) {
+  .skill {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .skill {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.bg-portfolio-dark {
+  background: radial-gradient(circle at top left, #1a0f1f, #0d0714 70%);
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.bg-portfolio-light {
+  background: radial-gradient(circle at top left, #ffffff, #f4f6fb 70%);
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+

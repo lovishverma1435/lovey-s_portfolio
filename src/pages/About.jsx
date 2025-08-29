@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import { Instagram, Linkedin, Github, Twitter, Download } from 'lucide-react'
 import { useTheme } from '../Theme/ThemeProvider'
+import Skills from "./Skills"
+import { Link } from 'react-router-dom'
 
 const About = () => {
   const [IsLoading, SetIsLoading] = useState(false)
+  const [Showskills,SetShowskills] = useState(false)
 
   const handleclick = () => {
     SetIsLoading(true)
@@ -11,10 +14,13 @@ const About = () => {
       SetIsLoading(false)
     }, 2000)
   }
+  const handleShowSkills = () => {
+    setShowSkills(prev => !prev) // toggle skills section
+  }
   const { theme } = useTheme()
   return (
     <>
-      <section className={`${theme ? "text-black" : "text-gray-300"} w-full  font-inter`}>
+      <section className={`${theme ? "text-black bg-portfolio-light"  : "text-gray-300 bg-portfolio-dark"} w-full  font-inter`}>
         <div className='container'>
           <div className=" items-center lg:flex md:items-center h-screen relative pt-12 ">
             <div className="flex justify-center">
@@ -38,12 +44,12 @@ const About = () => {
                   CV <Download className='w-5 h-5' />
                 </a>
 
-                <a
-                  href=""
+                <Link
+                to={"/skills"}
                   className='bg-[#ec5631] w-full py-3 px-16 rounded-xl flex justify-center items-center font-semibold text-lg hover:scale-105 transition-transform duration-300 shadow-lg'
                 >
-                  Skills
-                </a>
+                  <h1>Skills</h1>
+                </Link>
               </div>
 
             </div>
