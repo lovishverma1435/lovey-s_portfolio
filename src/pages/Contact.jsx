@@ -34,13 +34,13 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="flex flex-col gap-3">
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 hover:text-[#ec5631]">
               <Mail className="text-[#ec5631]" /> Bhushankumar4554@gmail.com
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 hover:text-[#ec5631]">
               <Phone className="text-[#ec5631]" /> +91 7888320170
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 hover:text-[#ec5631]">
               <MapPin className="text-[#ec5631]" /> Abohar, Punjab, India
             </p>
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform shadow-lg disabled:opacity-50 mb-16 md:mb-0"
+              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform duration-200 shadow-lg disabled:opacity-50 mb-16 md:mb-0"
             >
               {loading ? "Sending..." : "Send"} <Send className="inline w-5 h-5" />
             </button>
