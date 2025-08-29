@@ -18,7 +18,7 @@ const Contact = () => {
         theme ? "text-black " : "text-gray-300"
       }`}
     >
-      <div className="container mx-auto px-4  value  h-screen gap-10">
+      <div className="container mx-auto px-4  value  h-screen gap-10 py-20">
         {/* Left Side */}
         <div className="flex-1 flex flex-col gap-6">
           <h1 className="text-4xl font-semibold text-[#ec5631]">
@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
 
         {/* Right Side (Form) */}
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-4 mt-6 bg-transparent"
@@ -70,7 +70,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={loading}
-              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform shadow-lg disabled:opacity-50"
+              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform shadow-lg disabled:opacity-50 mb-16 md:mb-0"
             >
               {loading ? "Sending..." : "Send"} <Send className="inline w-5 h-5" />
             </button>

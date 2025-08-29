@@ -16,7 +16,7 @@ const About = () => {
     <>
       <section className={`${theme ? "text-black" : "text-gray-300"} w-full  font-inter`}>
         <div className='container'>
-          <div className=" items-center lg:flex md:items-center h-screen relative pt-8 ">
+          <div className=" items-center lg:flex md:items-center h-screen relative pt-12 ">
             <div className="flex justify-center">
               <img className='max-w-[500px] w-full h-auto md:h-[500px] ' src="/hero4.png" alt="" />
             </div>
