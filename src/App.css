@@ -161,19 +161,30 @@
   }
 }
 
+/* ------------------------ Dark Mode Background ------------------------ */
+/* ------------------------ Dark Mode Background ------------------------ */
 .bg-portfolio-dark {
   background: radial-gradient(circle at top left, #1a0f1f, #0d0714 70%);
   background-image: 
-    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+    linear-gradient(to right, rgba(236,86,49,0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(236,86,49,0.1) 1px, transparent 1px),
+    radial-gradient(circle, rgba(236,86,49,0.03) 1px, transparent 1px);
   background-size: 60px 60px;
+  /* Soft glow around lines */
+  box-shadow: inset 0 0 50px rgba(236,86,49,0.1);
 }
 
+/* ------------------------ Light Mode Background ------------------------ */
 .bg-portfolio-light {
   background: radial-gradient(circle at top left, #ffffff, #f4f6fb 70%);
   background-image: 
-    linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(236,86,49,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(236,86,49,0.05) 1px, transparent 1px),
+    radial-gradient(circle, rgba(236,86,49,0.02) 1px, transparent 1px);
   background-size: 60px 60px;
+  /* Soft glow around lines */
+  box-shadow: inset 0 0 40px rgba(236,86,49,0.05);
 }
+
+
 
