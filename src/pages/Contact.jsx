@@ -35,7 +35,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="flex flex-col gap-3">
             <p className="flex items-center gap-2 hover:text-[#ec5631]">
-              <Mail className="text-[#ec5631]" /> Bhushankumar4554@gmail.com
+              <Mail className="text-[#ec5631]" /> Bhushankumar5445@gmail.com
             </p>
             <p className="flex items-center gap-2 hover:text-[#ec5631]">
               <Phone className="text-[#ec5631]" /> +91 7888320170
