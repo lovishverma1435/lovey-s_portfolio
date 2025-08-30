@@ -32,22 +32,23 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="flex flex-col gap-3">
-            <p className="flex items-center gap-2 hover:text-[#ec5631]">
+            <p className="flex items-center gap-2 ">
               <Mail className="text-[#ec5631]" />
-              <a href="mailto:Bhushankumar5445@gmail.com" className="hover:underline">
+              <a href="mailto:Bhushankumar5445@gmail.com" className="hover:underline hover:text-[#ec5631]">
                 Bhushankumar5445@gmail.com
               </a>
             </p>
 
-            <p className="flex items-center gap-2 hover:text-[#ec5631]">
+            <p className="flex items-center gap-2 ">
               <Phone className="text-[#ec5631]" />
-              <a href="tel:+917888320170" className="hover:underline">
+              <a href="tel:+917888320170" className="hover:underline hover:text-[#ec5631]">
                 +91 7888320170
               </a>
             </p>
 
-            <p className="flex items-center gap-2 hover:text-[#ec5631]">
-              <MapPin className="text-[#ec5631]" /> Abohar, Punjab, India
+            <p className="flex items-center gap-2 ">
+              <MapPin className="text-[#ec5631]" />
+              <a href="https://www.google.com/maps/place/Abohar,+Punjab,+India" target="_blank" className="hover:underline hover:text-[#ec5631]">Abohar, Punjab, India</a>
             </p>
           </div>
         </div>
