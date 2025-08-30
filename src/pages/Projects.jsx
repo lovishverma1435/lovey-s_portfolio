@@ -1,9 +1,13 @@
 import projects from "../json/projects.json"
+import { useTheme } from "../Theme/ThemeProvider";
+
 
 const Projects = () => {
+    const { theme } = useTheme();
+  
   return (
     <>
-      <section className="relative w-full font-inter">
+      <section className={`relative w-full font-inter ${theme ? "text-black bg-portfolio-light"  : "text-gray-300 bg-portfolio-dark"}`}>
         {/* padding wrapper (instead of py-16 on section) */}
         <div className="pt-20 xl:flex gap-10 justify-center xl:gap-20 px-[20px] lg:px-10 xl:pl-20">
           <div className="flex justify-center mb-10">

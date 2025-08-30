@@ -6,6 +6,10 @@ import Tailwind from "/public/tailwind.svg"
 import Javascript from "/public/javascript.svg"
 import Reactjs from "/public/reactjs.svg"
 import Nodejs from "/public/nodejs.svg"
+import mysql from "/public/mysql.svg"
+import express from "/public/express.svg"
+import github from "/public/github.svg"
+import vscode from "/public/vscode.svg"
 const Skills = () => {
   const { theme } = useTheme();
 
@@ -16,18 +20,22 @@ const Skills = () => {
     { name: 'JavaScript', icon: <img src={Javascript} alt="JavaScript" className="w-8 h-8" />, level: 'Advanced' },
     { name: 'ReactJS', icon: <img src={Reactjs} alt="React" className="w-8 h-8" />, level: 'Advanced' },
     { name: 'NodeJS', icon: <img src={Nodejs} alt="NodeJS" className="w-8 h-8" />, level: 'Intermediate' },
+    { name: 'Mysql', icon: <img src={mysql} alt="Mysql" className="w-8 h-8" />, level: 'Advanced' },
+    { name: 'Express', icon: <img src={express} alt="Express" className="w-8 h-8" />, level: 'Advanced' },
+    { name: 'Github', icon: <img src={github} alt="Github" className="w-8 h-8" />, level: 'Advanced' },
+    { name: 'Vscode', icon: <img src={vscode} alt="Vscode" className="w-8 h-8" />, level: 'Advanced' },
   ];
 
 
   return (
     <section
-      className={`w-full font-inter py-20 ${theme ? "text-black" : "text-gray-300"
+      className={`w-full font-inter py-20 ${theme ? "text-black bg-portfolio-light"  : "text-gray-300 bg-portfolio-dark"
         }`}
     >
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#ff4974] to-[#4fc3f7]">
+          <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r  from-orange-600 via-orange-500 to-amber-400">
             My Skills
           </h2>
           <p className="mt-4 text-lg sm:text-xl">

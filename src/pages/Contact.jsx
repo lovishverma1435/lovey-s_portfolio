@@ -14,9 +14,7 @@ const Contact = () => {
 
   return (
     <section
-      className={`w-full min-h-screen font-inter ${
-        theme ? "text-black " : "text-gray-300"
-      }`}
+      className={`w-full min-h-screen font-inter ${theme ? "text-black bg-portfolio-light" : "text-gray-300 bg-portfolio-dark"}`}
     >
       <div className="container mx-auto px-4  value  h-screen gap-10 py-20">
         {/* Left Side */}
@@ -35,11 +33,19 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="flex flex-col gap-3">
             <p className="flex items-center gap-2 hover:text-[#ec5631]">
-              <Mail className="text-[#ec5631]" /> Bhushankumar5445@gmail.com
+              <Mail className="text-[#ec5631]" />
+              <a href="mailto:Bhushankumar5445@gmail.com" className="hover:underline">
+                Bhushankumar5445@gmail.com
+              </a>
             </p>
+
             <p className="flex items-center gap-2 hover:text-[#ec5631]">
-              <Phone className="text-[#ec5631]" /> +91 7888320170
+              <Phone className="text-[#ec5631]" />
+              <a href="tel:+917888320170" className="hover:underline">
+                +91 7888320170
+              </a>
             </p>
+
             <p className="flex items-center gap-2 hover:text-[#ec5631]">
               <MapPin className="text-[#ec5631]" /> Abohar, Punjab, India
             </p>

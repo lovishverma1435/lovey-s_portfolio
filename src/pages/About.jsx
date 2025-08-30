@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
   const [IsLoading, SetIsLoading] = useState(false)
-  const [Showskills,SetShowskills] = useState(false)
 
   const handleclick = () => {
     SetIsLoading(true)
@@ -14,9 +13,7 @@ const About = () => {
       SetIsLoading(false)
     }, 2000)
   }
-  const handleShowSkills = () => {
-    setShowSkills(prev => !prev) // toggle skills section
-  }
+  
   const { theme } = useTheme()
   return (
     <>
