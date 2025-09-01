@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Header from "./common/Header";
 import Skills from "./pages/Skills";
+import { FloatingDockDemo2 } from "./ui/PageDpage";
 
 function App() {
   return (
@@ -21,7 +22,14 @@ function App() {
         <Route path="/skills" element={<Skills/>}/>
       </Routes>
        {/* <BottomMenu/> */}
+       <div className="variention">
+
        <FloatingDockDemo/>
+       </div>
+       <div className="variention2">
+       <FloatingDockDemo2/>
+
+       </div>
       </BrowserRouter>
     </div>
   );

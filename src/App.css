@@ -186,5 +186,20 @@
   box-shadow: inset 0 0 40px rgba(236,86,49,0.05);
 }
 
+.variention{
+display: none;
+}
+.variention2{
+display: block;
+}
+
+@media (min-width: 325px) {
+  .variention{
+display:block ;
+}
+.variention2{
+display: none;
+}
+}
 
 
