@@ -193,7 +193,7 @@ display: none;
 display: block;
 }
 
-@media (min-width: 325px) {
+@media (min-width: 725px) {
   .variention{
 display:block ;
 }
