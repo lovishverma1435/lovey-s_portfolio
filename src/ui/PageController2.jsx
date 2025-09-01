@@ -76,8 +76,8 @@ function IconContainer({ mouseX, title, icon, href }) {
                             className="bg-customTeal text-gray-200 absolute -top-8 left-1/2 w-fit rounded-md 
                    font-poppins font-semibold px-2 py-1 text-xs whitespace-pre "
                         >
-                            {title}
-                        </motion.div>
+                            {/* {title} */}
+                       </motion.div>
                     )}
                 </AnimatePresence>
 
