@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/", // important for Vercel
+  
   build: {
     outDir: "dist", // Vercel will use dist folder
   },
