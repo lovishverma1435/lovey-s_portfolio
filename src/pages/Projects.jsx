@@ -38,14 +38,14 @@ const Projects = () => {
                     <h1 className="text-2xl text-[#ec5631] font-semibold tracking-wide">
                       {item.name}
                     </h1>
-                    <a
-                      href={item.link}
+                    <Link
+                      to={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg text-[#ec5631] px-4 py-2 rounded-xl font-medium border border-[#ec5631] group-hover:!text-white group-hover:bg-[#ec5631] transition-all duration-300"
                     >
                       Visit
-                    </a>
+                    </Link>
                   </div>
 
                 </div>

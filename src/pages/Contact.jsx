@@ -37,7 +37,7 @@ const Contact = () => {
               <a href="mailto:Bhushankumar5445@gmail.com" className="hover:underline hover:text-[#ec5631]">
                 Bhushankumar5445@gmail.com
               </a>
-            </p>
+            </p> 
 
             <p className="flex items-center gap-2 ">
               <Phone className="text-[#ec5631]" />
