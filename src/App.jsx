@@ -8,11 +8,13 @@ import Contact from "./pages/Contact";
 import Header from "./common/Header";
 import Skills from "./pages/Skills";
 import { FloatingDockDemo2 } from "./ui/PageDpage";
+import Animated from "./pages/Animated";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+      <Animated/>
       <Header/>
       <Routes>
         <Route path="/" element={<HomeSection />}/>

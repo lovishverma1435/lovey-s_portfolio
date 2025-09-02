@@ -17,7 +17,7 @@ const About = () => {
   const { theme } = useTheme()
   return (
     <>
-      <section className={`${theme ? "text-black bg-portfolio-light"  : "text-gray-300 bg-portfolio-dark"} w-full  font-inter`}>
+      <section className={`${theme ? "text-black bg-portfolio-light "  : "text-gray-300 bg-portfolio-dark"} w-full  font-inter`}>
         <div className='container'>
           <div className=" items-center lg:flex md:items-center h-screen relative pt-12 ">
             <div className="flex justify-center">
