@@ -25,12 +25,11 @@ const About = () => {
             </div>
             <div className=" flex flex-col gap-8 text-center sm:mx-auto max-w-[550px] w-full">
               <div className="flex flex-col gap-4 text-center ">
-                <h1 className='text-4xl sm:text-5xl md:text-6xl text-[#ec5631] lg:text-start font-semibold'>About Me...</h1>
-                <h1 className='text-lg sm:text-xl md:text-2xl leading-snug lg:text-start'>Transforming ideas into digital <span className='text-2xl sm:text-3xl md:text-4xl text-[#ec5631]'>experiences</span></h1>
+                <h1 className='text-4xl sm:text-5xl md:text-6xl  lg:text-start font-bold'>Abo<span className='text-[#ec5631]'>ut Me...</span></h1>
+                <h1 className='text-lg sm:text-xl md:text-2xl leading-snug lg:text-start font-semibold'>Transforming ideas into digital <span className='text-2xl sm:text-3xl md:text-4xl text-[#ec5631] font-semibold'>experiences</span></h1>
               </div>
-              <p className="text-base sm:text-lg md:text-2xl leading-relaxed lg:text-start">
-                Hey, <span className='text-[#ec5631] text-xl sm:text-2xl lg:text-3xl'>I’m Lovey</span> 👋 A passionate <span className='text-[#ec5631] text-xl sm:text-2xl md:text-3xl'>Full-Stack Web Developer</span> who loves
-                building scalable, modern, and user-friendly applications.
+              <p className="text-base sm:text-lg md:text-2xl leading-relaxed lg:text-start font-semibold">
+                Hey, <span className='text-[#ec5631] text-xl sm:text-2xl lg:text-3xl font-extrabold'>I’m Lovey</span> 👋 A passionate <span className='text-[#ec5631] text-xl sm:text-2xl md:text-3xl font-extrabold'>Full-Stack Web Developer</span> driven by the love for creating responsive and impactful web applications that not only look beautiful but also provide seamless performance and meaningful solutions..
               </p>
               <div className=" flex button gap-4 sm:gap-6 w-full pb-16 md:pb-0">
                 <a

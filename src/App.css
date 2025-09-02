@@ -148,16 +148,21 @@
   grid-template-columns: 1fr;
   gap: 20px; /* optional spacing */
 }
+@media (min-width: 540px) {
+  .skill {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
 
 /* Tablet and above */
 @media (min-width: 768px) {
   .skill {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (min-width: 1024px) {
   .skill {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

@@ -31,9 +31,9 @@ const HeroSection = () => {
 
       {/* Call Me Section */}
       <div className="absolute rightname text-right">
-        <p className="text-sm font-medium uppercase ">Call me</p>
+        <p className="text-sm font-semibold uppercase ">Call me</p>
         <h2 className="text-3xl font-bold">
-          <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-amber-400 bg-clip-text text-transparent text-5xl font-normal">
+          <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-amber-400 bg-clip-text text-transparent text-5xl font-extrabold">
             LOVEY
           </span>
         </h2>
@@ -42,7 +42,7 @@ const HeroSection = () => {
       {/* Welcome Section */}
       <div className="absolute leftname leading-tight text-end">
         <p className="text-[2.5rem] font-normal">
-          <span className="bg-gradient-to-r from-orange-700 via-orange-600 to-amber-500 bg-clip-text text-transparent text-3xl lg:text-5xl">
+          <span className="bg-gradient-to-r from-orange-700 via-orange-600 to-amber-500 bg-clip-text text-transparent text-3xl lg:text-5xl font-medium">
             WELCOME
           </span>{" "}
         </p>

@@ -29,7 +29,7 @@ const Skills = () => {
 
   return (
     <section
-      className={`w-full font-inter py-20 ${theme ? "text-black bg-portfolio-light"  : "text-gray-300 bg-portfolio-dark"
+      className={`w-full font-inter py-20 ${theme ? "text-black bg-portfolio-light" : "text-gray-300 bg-portfolio-dark"
         }`}
     >
       <div className="container mx-auto px-4">
@@ -47,15 +47,13 @@ const Skills = () => {
         <div className="skill  gap-8">
           {skills.map((skill, index) => (
             <div
-  key={index}
-  className={`flex flex-col items-center gap-4 p-6 rounded-2xl shadow-lg 
-    transition-all duration-300 hover:scale-105
-    ${
-      theme
-        ? "bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:shadow-[0_0_20px_rgba(236,86,49,0.4)]"
-        : "bg-gradient-to-br from-[#1a1a1a]/80 to-[#0d0714]/80 border border-gray-800 hover:shadow-[0_0_25px_rgba(236,86,49,0.8)]"
-    }`}
->
+              key={index}
+              className={`flex flex-col items-center gap-4 p-6 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105
+              ${theme
+                  ? "bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:shadow-[0_0_20px_rgba(236,86,49,0.4)]"
+                  : "bg-gradient-to-br from-[#1a1a1a]/80 to-[#0d0714]/80 border border-gray-800 hover:shadow-[0_0_25px_rgba(236,86,49,0.8)]"
+                }`}
+            >
 
               <div className="p-4 bg-white/10 backdrop-blur-md rounded-full">
                 {skill.icon}

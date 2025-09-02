@@ -19,11 +19,11 @@ const Contact = () => {
       <div className="container mx-auto px-4  value  h-screen gap-10 py-20">
         {/* Left Side */}
         <div className="flex-1 flex flex-col gap-6">
-          <h1 className="text-4xl font-semibold text-[#ec5631]">
-            Let’s Connect ✨
+          <h1 className="flex text-4xl lg:text-5xl font-bold text-[#ec5631] gap-[10px]">
+            Let’s Connect <iframe title="id" src="https://lottie.host/embed/a8c326ab-79af-4c6a-ae2e-44fce48336e3/CguXzoecsQ.lottie " className="w-[34px] h-[34px]"></iframe>
           </h1>
-          <h2 className="text-2xl font-bold">
-            Let’s <span className="text-[#ec5631]">Work Together!</span>
+          <h2 className="text-2xl font-bold pt-1">
+            Let’s <span className="text-[#ec5631] font-extrabold text-3xl">Work Together!</span>
           </h2>
           <p className="text-lg leading-relaxed">
             I’m always open to discussing new projects, creative ideas, or

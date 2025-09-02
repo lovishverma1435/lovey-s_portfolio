@@ -11,7 +11,7 @@ const Header = () => {
                 
                 {/* Left side logo / text */}
                 <Fontui 
-                    className="text-lg font-medium text-black dark:text-white"  
+                    className="text-2xl font-medium text-black dark:text-white"  
                     words={["dev","des"]} 
                     inspan="." 
                     outofspan="Bhushan"
