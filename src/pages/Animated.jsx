@@ -51,19 +51,19 @@ const Animated = () => {
         {/* Cyan Blob */}
         <div
           ref={(ref) => (blobRefs.current[1] = ref)}
-          className="absolute top-0 -right-4 w-96 h-96 bg-orange-300 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20 hidden sm:block"
+          className="absolute top-0 -right-4 w-96 h-96 bg-orange-300 rounded-full mix-blend-multiply filter blur-[128px] opacity-40  "
         ></div>
 
         {/* Emerald → Orange Blob */}
         <div
           ref={(ref) => (blobRefs.current[2] = ref)}
-          className="absolute -bottom-8 left-[-40%] md:left-20 w-96 h-96 bg-orange-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20"
+          className="absolute -bottom-8 left-[-40%]  w-96 h-96 bg-orange-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 "
         ></div>
 
         {/* Blue → Dark Orange Blob */}
         <div
           ref={(ref) => (blobRefs.current[3] = ref)}
-          className="absolute -bottom-10 right-20 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 md:opacity-10 hidden sm:block"
+          className="absolute -bottom-10 right-20 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-20  "
         ></div>
       </div>
 
