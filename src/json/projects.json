@@ -9,37 +9,42 @@
         {
             "image": "BuyNow.png",
             "name": "Buy-now in-react",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/buy-now/"
         },
         {
             "image": "iphone.png",
             "name": "IPhone in-react",
-            "link": "Link"
+            "link": "https://kaleidoscopic-palmier-2d354a.netlify.app/"
         },
         {
             "image": "verlin.png",
             "name": "Verlin start project",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/verlin/"
         },
         {
             "image": "Nike.png",
             "name": "Nike shoes project",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/nike/"
+        },
+        {
+            "image": "nikeproject.png",
+            "name": "Nike full-project",
+            "link": "https://lovishverma1435.github.io/e-comm/"
         },
         {
             "image": "calculator.png",
             "name": "calculator in js",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/calculator/"
         },
         {
             "image": "login.png",
             "name": "Login page",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/login/"
         },
          {
             "image": "cards.png",
             "name": "start cards page",
-            "link": "Link"
+            "link": "https://lovishverma1435.github.io/mapcard/"
         }
     ]
 }
