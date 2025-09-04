@@ -15,7 +15,7 @@ const Theme = () => {
   }
 
   return (
-    <div className="relative flex w-fit items-center rounded-full bg-white/10 backdrop-blur-md shadow-lg p-1">
+    <div className="relative flex w-fit items-center rounded-full bg-white/10 backdrop-blur-md shadow-lg p-1 ">
       {/* Light Button */}
       <button
         className={`relative z-10 flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors ${

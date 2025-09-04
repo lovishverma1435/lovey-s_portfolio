@@ -12,7 +12,7 @@ import Animated from "./pages/Animated";
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
       <Animated/>
       <Header/>
@@ -24,16 +24,16 @@ function App() {
         <Route path="/skills" element={<Skills/>}/>
       </Routes>
        {/* <BottomMenu/> */}
-       <div className="variention">
+       <span className="variention h-full" >
 
        <FloatingDockDemo/>
-       </div>
-       <div className="variention2">
+       </span>
+       <span className="variention2 h-full">
        <FloatingDockDemo2/>
 
-       </div>
+       </span>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 

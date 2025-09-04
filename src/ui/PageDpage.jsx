@@ -15,7 +15,7 @@ export function FloatingDockDemo2() {
     { title: "Contact", icon: <IconMessage className="h-full w-full  " />, href: "/contact" },
     
   ];
-
+ 
   return (
     <div className="flex items-center justify-center  bg-transparent ">
       <FloatingDock2 mobileClassName="translate-y-20 " items={links} />
