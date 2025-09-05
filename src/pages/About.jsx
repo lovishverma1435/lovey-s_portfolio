@@ -30,7 +30,7 @@ const About = () => {
             </div>
             <div className=" flex flex-col gap-8 text-center sm:mx-auto max-w-[550px] w-full">
               <div className="flex flex-col gap-4 text-center ">
-                <h1  data-aos="fade-down"  data-aos-delay="600" className='text-4xl sm:text-5xl md:text-6xl  lg:text-start font-bold'>Abo<span className='text-[#ec5631]'>ut Me...</span></h1>
+                <h1  data-aos="fade-down"  data-aos-delay="500" className='text-4xl sm:text-5xl md:text-6xl  lg:text-start font-bold'>Abo<span className='text-[#ec5631]'>ut Me...</span></h1>
                 <h1 data-aos="fade-down"  data-aos-delay="400" className='text-lg sm:text-xl md:text-2xl leading-snug lg:text-start font-semibold'>Transforming ideas into digital <span className='text-2xl sm:text-3xl md:text-4xl text-[#ec5631] font-semibold'>experiences</span></h1>
               </div>
               <p data-aos="fade-down"  data-aos-delay="200" className="text-base sm:text-lg md:text-2xl leading-relaxed lg:text-start font-semibold">
