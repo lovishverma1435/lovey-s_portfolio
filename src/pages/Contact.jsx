@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
 
         {/* Right Side (Form) */}
-        <div className="flex-1 w-full">
+        <div className={`flex-1 w-full ${theme ? "text-black " : "text-gray-300 "} `}>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-4 mt-6 bg-transparent"
@@ -75,12 +75,12 @@ const Contact = () => {
               placeholder="Your Email"
               className="bg-transparent border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]"
             />
-            <textarea data-aos="fade-up"  data-aos-delay="600"
+            <textarea data-aos="fade-up"  data-aos-delay="500"
               placeholder="Your Message"
               rows="5"
               className="bg-transparent border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]"
             ></textarea>
-            <button data-aos="fade-up"  data-aos-delay="800"
+            <button data-aos="fade-up"  data-aos-delay="600"
               type="submit"
               disabled={loading}
               className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform duration-200 shadow-lg disabled:opacity-50 mb-16 md:mb-0"

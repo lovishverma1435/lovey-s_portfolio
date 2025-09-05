@@ -40,11 +40,7 @@
             "image": "login.png",
             "name": "Login page",
             "link": "https://lovishverma1435.github.io/login/"
-        },
-         {
-            "image": "cards.png",
-            "name": "start cards page",
-            "link": "https://lovishverma1435.github.io/mapcard/"
         }
+        
     ]
 }

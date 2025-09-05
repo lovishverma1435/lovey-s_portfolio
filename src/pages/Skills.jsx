@@ -46,7 +46,7 @@ const Skills = () => {
         {/* Skills Grid */}
         <div className="skill  gap-8">
           {skills.map((skill, index) => (
-            <div
+            <div  
               key={index}
               className={`flex flex-col items-center gap-4 p-6 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105
               ${theme

@@ -30,7 +30,7 @@ const Projects = () => {
           {/* Right Projects Grid */}
           <div className="grid sm:grid-cols-2 justify-center gap-3 pb-16 lg:gap-5 xl:gap-10 ">
             {projects.projects.map((item, index) => (
-              <nav  data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"}
+              <nav  data-aos={index % 2 === 0 ? "fade-up"   : "fade-down" }
                     data-aos-duration={index % 3 === 0 ? "1000" : index % 3 === 1 ? "1200" : "1000"}
                      className="max-w-[400px] group w-full h-full" key={index}>
                 <div className="flex flex-col gap-4 bg-gradient-to-br from-[#1a1a1a] to-[#0d0714] border border-gray-800 p-4 rounded-2xl group-hover:shadow-[0_0_25px_rgba(236,86,49,0.7)] transition-all duration-300">
