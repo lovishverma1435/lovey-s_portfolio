@@ -15,7 +15,7 @@ const Theme = () => {
   }
 
   return (
-    <div className="relative flex w-fit h-9 sm:h-11 items-center rounded-full bg-white/10 backdrop-blur-md shadow-lg p-1 ">
+    <div className="relative flex w-fit h-9 sm:h-11 items-center rounded-full bg-white/10 backdrop-blur-md shadow-lg p-1">
       {/* Light Button */}
       <button
         className={`relative z-10 flex items-center gap-2 px-4 py-2 text-sm font-medium transition-colors ${
@@ -47,7 +47,7 @@ const Theme = () => {
         <motion.span
           layout
           transition={{ type: "spring", damping: 15, stiffness: 250 }}
-          className="h-full w-1/2 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 shadow-md "
+          className="h-full w-1/2 rounded-full bg-gradient-to-r from-orange-500 to-orange-700 shadow-md"
         />
       </div>
     </div>

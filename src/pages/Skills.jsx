@@ -10,6 +10,8 @@ import mysql from "/public/mysql.svg"
 import express from "/public/express.svg"
 import github from "/public/github.svg"
 import vscode from "/public/vscode.svg"
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Skills = () => {
   const { theme } = useTheme();
 
@@ -26,7 +28,11 @@ const Skills = () => {
     { name: 'Vscode', icon: <img src={vscode} alt="Vscode" className="w-8 h-8" />, level: 'Advanced' },
   ];
 
-
+ AOS.init({
+        duration: 1200,
+        once: false,
+        offset: 200,
+    });
   return (
     <section
       className={`w-full font-inter py-20 ${theme ? "text-black bg-portfolio-light" : "text-gray-300 bg-portfolio-dark"
@@ -46,7 +52,8 @@ const Skills = () => {
         {/* Skills Grid */}
         <div className="skill  gap-8">
           {skills.map((skill, index) => (
-            <div  
+            <div  data-aos={index % 2 === 0 ? "fade-up"   : "fade-down" }
+                    data-aos-duration={index % 3 === 0 ? "1000" : index % 3 === 1 ? "1200" : "1000"}
               key={index}
               className={`flex flex-col items-center gap-4 p-6 rounded-2xl shadow-lg transition-all duration-300 hover:scale-105
               ${theme

@@ -60,26 +60,33 @@ const Contact = () => {
         </div>
 
         {/* Right Side (Form) */}
-        <div className={`flex-1 w-full ${theme ? "text-black " : "text-gray-300 "} `}>
+        <div className={`flex-1 w-full   ${theme ? "text-black " : "text-gray-300 "} `}>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-4 mt-6 bg-transparent"
           >
-            <input  data-aos="fade-up"  data-aos-delay="200"
+            <div data-aos="fade-up"  data-aos-delay="200">
+               <input  
               type="text"
               placeholder="Your Name"
-              className="bg-transparent border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]"
+              className={`${theme ? " placeholder-black text-black" :"text-gray-300 placeholder-gray-300"} bg-transparent w-full   border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]`}
             />
-            <input data-aos="fade-up"  data-aos-delay="400"
+            </div>
+           <div data-aos="fade-up"  data-aos-delay="400" >
+             <input 
               type="email"
               placeholder="Your Email"
-              className="bg-transparent border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]"
+               className={`${theme ? " placeholder-black text-black" :"text-gray-300 placeholder-gray-300"} bg-transparent w-full   border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]`}
             />
-            <textarea data-aos="fade-up"  data-aos-delay="500"
+           </div>
+           <div data-aos="fade-up"  data-aos-delay="500" >
+             <textarea 
               placeholder="Your Message"
               rows="5"
-              className="bg-transparent border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]"
+               className={`${theme ? " placeholder-black text-black" :"text-gray-300 placeholder-gray-300"} bg-transparent w-full   border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#ec5631]`}
             ></textarea>
+           </div>
+           
             <button data-aos="fade-up"  data-aos-delay="600"
               type="submit"
               disabled={loading}
