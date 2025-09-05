@@ -37,7 +37,7 @@ const About = () => {
                 Hey, <span className='text-[#ec5631] text-xl sm:text-2xl lg:text-3xl font-extrabold'>I’m Lovey</span> 👋 A passionate <span className='text-[#ec5631] text-xl sm:text-2xl md:text-3xl font-extrabold'>Full-Stack Web Developer</span> driven by the love for creating responsive and impactful web applications that not only look beautiful but also provide seamless performance and meaningful solutions..
               </p>
               <div  className=" flex button gap-4 sm:gap-6 w-full pb-16 md:pb-0">
-                <a data-aos="fade-up"  data-aos-delay="500"
+                <a data-aos="fade-up"  data-aos-delay="400"
                   href="https://drive.usercontent.google.com/download?id=1oHxtBgAOB4prO6MX03dkd3T1Xmno-LG_&export=download&authuser=0&confirm=t&uuid=40682eac-e488-4268-8508-900586cb5ba1&at=AN8xHoqK_qp0tg66Esv1c4X-19jC:1756960813085"
                   download={"cv"}
                   className='bg-[#ec5631] w-full py-3 px-14 rounded-xl flex justify-center items-center font-semibold text-lg gap-3 hover:scale-105 transition-transform duration-300 shadow-lg'
@@ -45,7 +45,7 @@ const About = () => {
                   CV <Download className='w-5 h-5' />
                 </a>
 
-                <Link data-aos="fade-up"  data-aos-delay="600"
+                <Link data-aos="fade-up"  data-aos-delay="500"
                 to={"/skills"}
                   className='bg-[#ec5631] w-full py-3 px-16 rounded-xl flex justify-center items-center font-semibold text-lg hover:scale-105 transition-transform duration-300 shadow-lg'
                 >

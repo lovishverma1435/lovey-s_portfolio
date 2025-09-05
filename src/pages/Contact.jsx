@@ -90,7 +90,7 @@ const Contact = () => {
             <button data-aos="fade-up"  data-aos-delay="600"
               type="submit"
               disabled={loading}
-              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform duration-200 shadow-lg disabled:opacity-50 mb-16 md:mb-0"
+              className="bg-[#ec5631] text-white font-semibold py-3 px-6 rounded-xl hover:scale-105 transition-transform duration-300 shadow-lg disabled:opacity-50 mb-16 md:mb-0 cursor-pointer"
             >
               {loading ? "Sending..." : "Send"} <Send className="inline w-5 h-5" />
             </button>

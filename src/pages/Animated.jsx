@@ -44,7 +44,7 @@ const Animated = () => {
         {/* Blobs */}
         <div
           ref={(ref) => (blobRefs.current[0] = ref)}
-          className="absolute top-0 -left-4 md:w-96 md:h-96 w-72 h-72 bg-amber-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20"
+          className="absolute top-0 -left-4 md:w-96 md:h-96 w-72 h-72 bg-orange-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20"
         ></div>
 
         <div
@@ -52,10 +52,10 @@ const Animated = () => {
           className="absolute top-0 -right-4 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20 hidden sm:block"
         ></div>
 
-        <div
+        {/* <div
           ref={(ref) => (blobRefs.current[2] = ref)}
-          className="absolute -bottom-8 left-[-40%] md:left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20"
-        ></div>
+          className="absolute -bottom-8 left-[-40%] md:left-20 w-96 h-96 bg-red-500 rounded-full mix-blend-multiply filter blur-[128px] opacity-40 md:opacity-20"
+        ></div> */}
 
         <div
           ref={(ref) => (blobRefs.current[3] = ref)}
