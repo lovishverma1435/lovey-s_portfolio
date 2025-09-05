@@ -10,7 +10,7 @@ const Projects = () => {
  AOS.init({
         duration: 1200,
         once: false,
-        offset: 0,
+        offset: 200,
     });
   return (
     <>

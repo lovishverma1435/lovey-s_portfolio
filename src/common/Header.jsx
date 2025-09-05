@@ -10,7 +10,7 @@ const Header = () => {
         <div className="max-w-[1260px] mx-auto flex justify-between items-center px-4 py-2">
           {/* Left side logo / text */}
           <Fontui
-            className="text-2xl font-medium text-black dark:text-white"
+            className="text-xl sm:text-2xl font-medium justify-center items-center text-black dark:text-white"
             words={["dev", "des"]}
             inspan="."
             outofspan="Bhushan"
