@@ -40,8 +40,8 @@ const Contact = () => {
           <div className="flex flex-col gap-3">
             <p  data-aos="fade-right"  data-aos-delay="800" className="flex items-center gap-2 ">
               <Mail className="text-[#ec5631]" />
-              <a href="mailto:Bhushankumar5445@gmail.com" className="hover:underline hover:text-[#ec5631]">
-                Bhushankumar5445@gmail.com
+              <a href="mailto:vermalovey5@gmail.com" className="hover:underline hover:text-[#ec5631]">
+                vermalovey5@gmail.com
               </a>
             </p> 
 
