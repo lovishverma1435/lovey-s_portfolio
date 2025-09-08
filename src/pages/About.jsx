@@ -38,7 +38,7 @@ const About = () => {
               </p>
               <div  className=" flex button gap-4 sm:gap-6 w-full pb-16 md:pb-0">
                 <a data-aos="fade-up"  data-aos-delay="400"
-                  // href="https://drive.usercontent.google.com/download?id=1oHxtBgAOB4prO6MX03dkd3T1Xmno-LG_&export=download&authuser=0&confirm=t&uuid=40682eac-e488-4268-8508-900586cb5ba1&at=AN8xHoqK_qp0tg66Esv1c4X-19jC:1756960813085"
+                  href="https://drive.usercontent.google.com/download?id=1oHxtBgAOB4prO6MX03dkd3T1Xmno-LG_&export=download&authuser=0&confirm=t&uuid=40682eac-e488-4268-8508-900586cb5ba1&at=AN8xHoqK_qp0tg66Esv1c4X-19jC:1756960813085"
                   download={"cv"}
                   className='bg-[#ec5631] w-full py-3 px-14 rounded-xl flex justify-center items-center font-semibold text-lg gap-3 hover:scale-105 transition-transform duration-300 shadow-lg'
                 >

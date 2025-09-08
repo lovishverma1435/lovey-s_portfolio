@@ -13,7 +13,7 @@ const Header = () => {
             className="text-xl sm:text-2xl font-medium justify-center items-center text-black dark:text-white"
             words={["dev", "des"]}
             inspan="."
-            outofspan="Lovish"
+            outofspan="Bhushan"
           />
           {/* Right side theme button */}
           <Theme />

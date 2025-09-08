@@ -22,7 +22,7 @@ const HeroSection = () => {
       {/* Big Name */}
       <h1 data-aos="fade-down"  data-aos-delay="200" className="absolute top-16 left-1/2 -translate-x-1/2 font-bold tracking-widest leading-none ">
         <span className="bg-gradient-to-r from-orange-700 via-orange-600 to-amber-500 bg-clip-text text-transparent headname font-normal">
-          LOVISH
+          BHUSHAN
         </span>
       </h1>
 
