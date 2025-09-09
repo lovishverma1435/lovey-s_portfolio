@@ -44,14 +44,14 @@ const Projects = () => {
 
                   {/* Content */}
                   <div className="flex justify-between items-center mt-2">
-                    <h1 className="text-2xl text-[#ec5631] font-semibold tracking-wide">
+                    <h1 className="text-2xl text-OrangeCustom font-semibold tracking-wide">
                       {item.name}
                     </h1>
                     <Link
                       to={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-lg text-[#ec5631] px-4 py-2 rounded-xl font-medium border border-[#ec5631] group-hover:!text-white group-hover:bg-[#ec5631] transition-all duration-300"
+                      className="text-lg text-OrangeCustom px-4 py-2 rounded-xl font-medium border border-OrangeCustom group-hover:!text-white group-hover:bg-OrangeCustom transition-all duration-300"
                     >
                       Visit
                     </Link>

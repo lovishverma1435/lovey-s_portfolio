@@ -71,7 +71,7 @@ const Skills = () => {
               {/* Progress Bar */}
               <div className="w-full bg-gray-700 h-2 rounded-full mt-2 overflow-hidden">
                 <div
-                  className="h-2 rounded-full bg-[#ec5631]"
+                  className="h-2 rounded-full bg-OrangeCustom"
                   style={{
                     width:
                       skill.level === "Expert"

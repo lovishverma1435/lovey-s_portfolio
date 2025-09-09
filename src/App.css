@@ -7,7 +7,9 @@
 
 @theme{
      --font-inter:" "Inter", sans-serif";
+     --color-OrangeCustom:#ec5631
 }
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -192,7 +194,6 @@ height: 42px; ;
 height: 36px;
 }
 }
-
 
 
 
